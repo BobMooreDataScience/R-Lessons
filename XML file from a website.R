@@ -1,6 +1,7 @@
 ## More detail found at https://www.stat.berkeley.edu/~statcur/Workshop2/Presentations/XML.pdf
+## See webscraping examples for using get
 
-# 1 Get the library an set working directory
+# 1 Get the library an set the working directory
 ## Note this works bettter if you do not use the full path
 
 library(dplyr)
@@ -36,6 +37,8 @@ Zips2 <- filter(Zips,Zips == "21231")
 nrow(Zips2)
 
 ## Answer is 127
+
+
 
 
 
