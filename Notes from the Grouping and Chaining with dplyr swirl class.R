@@ -17,7 +17,7 @@
 # 25    Use filter() to select all rows for which size_mb is
 #       less than or equal to (<=) 0.5.
 
-# 26     Use arrange() toe sort the result by size_mb, in descending order.
+# 26     Use arrange() to sort the result by size_mb, in descending order.
 
 cran %>%
   select(ip_id, country, package, size) %>%
